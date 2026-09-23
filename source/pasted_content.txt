@@ -1,0 +1,1340 @@
+I want to create a repo on github to help newbies get badges, join the program, edit their account and make friends or find projects to work on or even build
+The user wants to create a GitHub repository to help newbies with various aspects of open source contribution: earning badges, joining programs, editing accounts, making friends, and finding projects. I need to provide guidance on how to structure and populate this repo. I should search for existing similar repos and resources to inform my recommendations. I'll search for existing newbie-focused GitHub repos, badge programs, open source programs for beginners, and community building resources.
+
+Found 56 web pages
+The search results provide some initial leads. I need to open some of the promising results to gather more detailed information. I'll open the GitHub Achievements repo, the GitHub Badges repo, the "How to find open-source projects suitable for beginners" discussion, the "New to open source?" guide, the "Building Welcoming Communities" guide, and the "awesome-for-beginners" list.
+
+Read 6 pages
+GitHub - enzifiri/GitHub-Achievements: How to earn Github achievements. Step by Step ENGLISH / TURKISH / ESPANOL / GERMAN · GitHub - GitHub - enzifiri/GitHub-Achievements: How to earn Github achievements. Step by Step ENGLISH / TURKISH / ESPANOL / GERMAN · GitH...
+GitHub - atulkamble/Github-Badges: This repository provides a comprehensive guide to various GitHub badges that showcase achievements or statuses on your GitHub profile. It includes step-by-step instructions, resources, and example codes for earning and displaying these badges. · GitHub - GitHub - atulkamble/Github-Badges: This repository provides a comprehensive guide to various GitHub badges that showcase achieve...
+How to find open-source projects suitable for beginners to participate in on GitHub? · community · Discussion #181857 - {{ message }}
+New to open source? Here’s everything you need to get started
+Building Welcoming Communities
+View All
+I have gathered information from various sources. Now I need to structure a comprehensive answer. I'll outline the repo's purpose, structure, and content. I'll include sections on badges, programs, account setup, finding friends, and projects. I'll also provide practical steps and resources. I'll cite relevant sources.
+
+Building a repository to guide newbies through the GitHub ecosystem is a fantastic idea—it fills a real gap for people who want to contribute but don't know where to start. To make it genuinely useful, you'll want to structure it as a practical, step-by-step handbook that takes someone from "just signed up" to "confident contributor."
+
+Here's a blueprint for organizing your repo and the key content to include in each section.
+
+📁 Recommended Repository Structure
+text
+github-newbie-guide/
+├── README.md                  # Main entry point & overview
+├── 01-getting-started/
+│   ├── profile-setup.md       # Editing account & optimizing profile
+│   └── git-basics.md          # Fork, clone, branch, commit, PR
+├── 02-badges-achievements/
+│   ├── github-badges.md       # Official achievements (Pull Shark, etc.)
+│   └── community-badges.md    # Hacktoberfest, project-specific badges
+├── 03-programs-events/
+│   ├── beginner-programs.md   # GSoC, Hacktoberfest, MLH, etc.
+│   └── calendar.md            # Annual schedule of events
+├── 04-finding-community/
+│   ├── making-friends.md      # How to network on GitHub
+│   └── finding-projects.md    # Good First Issue, Explore, topics
+├── 05-first-contribution/
+│   ├── workflow.md            # End-to-end PR workflow
+│   └── etiquette.md           # Communication & maintainer expectations
+└── CONTRIBUTING.md            # How others can contribute to THIS repo
+📝 Core Content for Each Section
+README.md (The Hub)
+Your README should immediately answer "Why should I care?" and "How do I use this?" Include:
+
+A short mission statement (e.g., "This repo helps you go from GitHub newbie to confident open source contributor.")
+
+A visual roadmap or checklist of the journey
+
+Quick links to each section
+
+A "Start Here" call-to-action pointing to 01-getting-started
+
+1. Getting Started: Account & Profile
+Many newbies don't realize their profile is their resume.
+
+Profile optimization: Add a bio, profile picture, pinned repositories, and a README that introduces them.
+
+Account settings: Explain two-factor authentication, notification management, and how to set up a GitHub Pages site.
+
+Git basics: A concise, copy-pasteable workflow: Fork → Clone → Branch → Commit → Push → Pull Request.
+
+2. Badges & Achievements
+This is a high-interest area. Break it into two types:
+
+Official GitHub Achievements: Explain each badge and how to earn it. For example, Pull Shark requires 2 merged PRs, Quickdraw is closing a PR within 5 minutes, and Pair Extraordinaire is co-authoring a commit. Provide step-by-step guides, ideally with a demo repo where they can practice safely.
+
+Community & Program Badges: Hacktoberfest, project-specific contributor badges (e.g., All Contributors), and Public Sponsor for sponsoring open source.
+
+3. Programs & Events for Beginners
+Curate a list of programs with clear eligibility and timelines.
+
+Hacktoberfest (October): Submit 4 PRs to earn swag and badges.
+
+Google Summer of Code (GSoC): Paid, mentored program; emphasize it's for students and requires early prep.
+
+MLH Fellowship, Outreachy, Girls Who Code, and Open Source Friday (contribute on Fridays and share with #OpenSourceFriday).
+
+Include a calendar so newbies can plan ahead.
+
+4. Finding Community & Friends
+Making friends in open source can feel intimidating. Provide actionable tactics:
+
+Introduce yourself in GitHub Discussions or project forums.
+
+Join Discord/Slack communities for projects you like.
+
+Start small: Comment on an issue, ask a clarifying question, or thank a maintainer.
+
+Pair up: Encourage "buddy contributions" where two newbies work on a PR together (also earns the Pair Extraordinaire badge).
+
+Follow and engage: Star repos, follow contributors, and participate in community calls.
+
+5. Finding Projects to Work On
+Teach them how to fish:
+
+Search by label: Use good first issue, first-timers-only, beginner, or help wanted.
+
+Use discovery tools: github.com/explore, goodfirstissue.dev, and curated lists like awesome-for-beginners (which has 45K+ stars).
+
+Evaluate projects: Check the README, CONTRIBUTING.md, and recent activity before committing.
+
+Start with non-code contributions: Documentation, translations, UI fixes, or writing tests are often more accessible.
+
+6. Your First Contribution (The Workflow)
+Provide a concrete, end-to-end example with screenshots or terminal commands.
+
+Fork the repo → Clone locally → Create a branch (git checkout -b fix/my-change) → Make changes → Test → Commit → Push → Open a Pull Request.
+
+Etiquette: Be patient with maintainers, read the code of conduct, and don't take feedback personally.
+
+💡 Tips for Making the Repo Successful
+Be a welcoming community: Your repo itself should model good behavior. Have a clear CONTRIBUTING.md, a CODE_OF_CONDUCT.md, and label issues with good first issue to invite contributions.
+
+Use the contributor funnel: Design your content so a visitor can progress from "reader" to "contributor" to "maintainer" of your own guide.
+
+Make it interactive: Create a sandbox/ folder where newbies can practice making a PR to your repo. This gives them a safe, real experience.
+
+Keep it updated: Open source programs and badges change. Set a reminder to review the content quarterly.
+
+Add visual aids: Screenshots, GIFs, and diagrams dramatically improve comprehension for beginners.
+
+If you'd like, I can help you draft the actual markdown content for the README.md or any specific section (like the badges guide or the first-contribution workflow). Just let me know which part you'd like to tackle first.
+
+i dont need your extra stuff just the file tree and promprs
+We need answer. User wants just file tree and prompts. They said "i dont need your extra stuff just the file tree and promprs". Need infer "promprs" = prompts. They want for creating repo? They likely want file tree and prompts to use. Need provide concise. Maybe they want prompts for AI to generate content? We should give file tree and prompts. No extra fluff. We need comply. We should not include previous explanation. Just file tree and prompts. We need decide what prompts? Probably prompts for each file/section to feed to AI to generate content. The previous answer had blueprint. Now user says just file tree and prompts. So we can output:
+
+text
+github-newbie-guide/
+├── README.md
+...
+Then prompts for each file or section. Could be in markdown. Keep concise. No extra commentary. Maybe include placeholders. Ensure prompts are useful. We can provide "Prompts" as list mapping to files. They might want to use with AI to create repo. We'll provide file tree and corresponding prompts. Should we include all files? yes.
+
+Need maybe "promprs" typo. We'll write "Prompts". We can include a prompt for README, each subfile, CONTRIBUTING, CODE_OF_CONDUCT, etc. Keep just those.
+
+We should avoid extra stuff. Maybe no intro. Direct.
+
+We can format:
+
+File tree
+
+text
+...
+Prompts
+
+text
+README.md:
+Write a welcoming README for...
+...
+We can be concise. Should we include all files from earlier structure plus maybe CODE_OF_CONDUCT and sandbox? Earlier structure didn't include CODE_OF_CONDUCT. User said just file tree and prompts. We can include a practical tree. Include sandbox? They mentioned repo to help newbies. We can include sandbox/README.md for practice. But they asked just file tree and prompts. We can include that. Let's design:
+
+text
+github-newbie-guide/
+├── README.md
+├── CONTRIBUTING.md
+├── CODE_OF_CONDUCT.md
+├── LICENSE
+├── 01-getting-started/
+│   ├── profile-setup.md
+│   └── git-basics.md
+├── 02-badges-achievements/
+│   ├── github-badges.md
+│   └── community-badges.md
+├── 03-programs-events/
+│   ├── beginner-programs.md
+│   └── calendar.md
+├── 04-finding-community/
+│   ├── making-friends.md
+│   └── finding-projects.md
+├── 05-first-contribution/
+│   ├── workflow.md
+│   └── etiquette.md
+└── sandbox/
+    └── README.md
+Prompts:
+
+README.md: "Write a README for a GitHub repo called github-newbie-guide. It helps beginners set up their account, earn badges, join programs, make friends, find projects, and make first contributions. Include mission, roadmap checklist, quick links to each folder, and Start Here."
+
+CONTRIBUTING.md: "Write CONTRIBUTING.md for a beginner-friendly guide repo. Explain how to suggest edits, add new resources, report outdated info, use issues and PRs, and follow style."
+
+CODE_OF_CONDUCT.md: "Write a short CODE_OF_CONDUCT.md based on Contributor Covenant for a welcoming beginner community."
+
+LICENSE: "Generate MIT License text for github-newbie-guide."
+
+01-getting-started/profile-setup.md: "Write a step-by-step guide for new GitHub users to edit their account and optimize their profile: bio, avatar, pinned repos, profile README, 2FA, notifications."
+
+git-basics.md: "Write a beginner-friendly Git and GitHub basics guide: fork, clone, branch, commit, push, pull request. Include copy-paste commands."
+
+github-badges.md: "Write a guide to official GitHub achievements/badges. Explain each badge, how to earn it, and a safe practice method. Include Pull Shark, Quickdraw, Pair Extraordinaire, YOLO, Public Sponsor, etc."
+
+community-badges.md: "Write a guide to community and program badges: Hacktoberfest, All Contributors, project-specific badges. Explain how to earn and display them."
+
+beginner-programs.md: "Write a curated list of beginner-friendly open source programs and events: Hacktoberfest, GSoC, MLH Fellowship, Outreachy, Open Source Friday, etc. Include eligibility, timeline, and links."
+
+calendar.md: "Create a month-by-month calendar of open source events and programs for beginners. Include key dates and prep windows."
+
+making-friends.md: "Write a guide on how to make friends and network on GitHub: introductions, Discussions, Discord/Slack, commenting, pairing, community calls, etiquette."
+
+finding-projects.md: "Write a guide on finding beginner-friendly projects: search labels like good first issue, first-timers-only, help wanted; tools like GitHub Explore, goodfirstissue.dev, awesome-for-beginners; how to evaluate repos."
+
+workflow.md: "Write an end-to-end first contribution workflow with commands: fork, clone, branch, edit, test, commit, push, open PR. Include screenshots placeholders."
+
+etiquette.md: "Write a guide to open source etiquette for beginners: patience, reading CONTRIBUTING, code of conduct, feedback, communication, not taking rejection personally."
+
+sandbox/README.md: "Write a README for a sandbox folder where newbies can practice making a pull request. Include instructions to add their name to a list or fix a typo."
+
+That's good. No extra fluff. Ensure "promprs" maybe they meant "prompts". We'll output.
+
+Should we include "Prompts" as a single code block? Fine.
+
+Need final answer only. No extra. Use markdown. Keep concise. Could include "File tree" and "Prompts". That satisfies.
+
+We should not mention "I don't need extra stuff". Just give.
+
+Let's final.
+
+text
+github-newbie-guide/
+├── README.md
+├── CONTRIBUTING.md
+├── CODE_OF_CONDUCT.md
+├── LICENSE
+├── 01-getting-started/
+│   ├── profile-setup.md
+│   └── git-basics.md
+├── 02-badges-achievements/
+│   ├── github-badges.md
+│   └── community-badges.md
+├── 03-programs-events/
+│   ├── beginner-programs.md
+│   └── calendar.md
+├── 04-finding-community/
+│   ├── making-friends.md
+│   └── finding-projects.md
+├── 05-first-contribution/
+│   ├── workflow.md
+│   └── etiquette.md
+└── sandbox/
+    └── README.md
+text
+README.md:
+Write a README for a GitHub repo called github-newbie-guide. It helps beginners set up their account, earn badges, join programs, make friends, find projects, and make first contributions. Include mission, roadmap checklist, quick links to each folder, and Start Here.
+
+CONTRIBUTING.md:
+Write CONTRIBUTING.md for a beginner-friendly guide repo. Explain how to suggest edits, add new resources, report outdated info, use issues and PRs, and follow style.
+
+CODE_OF_CONDUCT.md:
+Write a short CODE_OF_CONDUCT.md based on Contributor Covenant for a welcoming beginner community.
+
+LICENSE:
+Generate MIT License text for github-newbie-guide.
+
+01-getting-started/profile-setup.md:
+Write a step-by-step guide for new GitHub users to edit their account and optimize their profile: bio, avatar, pinned repos, profile README, 2FA, notifications.
+
+01-getting-started/git-basics.md:
+Write a beginner-friendly Git and GitHub basics guide: fork, clone, branch, commit, push, pull request. Include copy-paste commands.
+
+02-badges-achievements/github-badges.md:
+Write a guide to official GitHub achievements/badges. Explain each badge, how to earn it, and a safe practice method. Include Pull Shark, Quickdraw, Pair Extraordinaire, YOLO, Public Sponsor, etc.
+
+02-badges-achievements/community-badges.md:
+Write a guide to community and program badges: Hacktoberfest, All Contributors, project-specific badges. Explain how to earn and display them.
+
+03-programs-events/beginner-programs.md:
+Write a curated list of beginner-friendly open source programs and events: Hacktoberfest, GSoC, MLH Fellowship, Outreachy, Open Source Friday, etc. Include eligibility, timeline, and links.
+
+03-programs-events/calendar.md:
+Create a month-by-month calendar of open source events and programs for beginners. Include key dates and prep windows.
+
+04-finding-community/making-friends.md:
+Write a guide on how to make friends and network on GitHub: introductions, Discussions, Discord/Slack, commenting, pairing, community calls, etiquette.
+
+04-finding-community/finding-projects.md:
+Write a guide on finding beginner-friendly projects: search labels like good first issue, first-timers-only, help wanted; tools like GitHub Explore, goodfirstissue.dev, awesome-for-beginners; how to evaluate repos.
+
+05-first-contribution/workflow.md:
+Write an end-to-end first contribution workflow with commands: fork, clone, branch, edit, test, commit, push, open PR. Include screenshots placeholders.
+
+05-first-contribution/etiquette.md:
+Write a guide to open source etiquette for beginners: patience, reading CONTRIBUTING, code of conduct, feedback, communication, not taking rejection personally.
+
+sandbox/README.md:
+Write a README for a sandbox folder where newbies can practice making a pull request. Include instructions to add their name to a list or fix a typo.
+This response is AI-generated, for reference only.
+that file tree is pathetic it should be doulble the length
+We need answer. User complains file tree pathetic should be double length. We need expand file tree. They asked "i dont need your extra stuff just the file tree and promprs". We gave tree + prompts. They want file tree double length. Need provide expanded file tree and prompts. We need likely no extra commentary. We should produce much larger file tree, double length. Original tree had ~20 entries. Double ~40+ entries. Need ensure structure logical. Include more files. Then prompts for each file? They asked "just the file tree and prompts". We should output tree and prompts. We can expand. Need maybe include subfolders like 06-resources, 07-templates, 08-advanced, assets, examples, checklists, faq, glossary, translations, .github, issue templates, workflows, etc. But must be double length. We can create comprehensive tree. Then prompts for each file. Could be many prompts. Need not extra. Ensure no extra advice. We can write.
+
+We need decide exact tree. Original:
+
+github-newbie-guide/
+├── README.md
+├── CONTRIBUTING.md
+├── CODE_OF_CONDUCT.md
+├── LICENSE
+├── 01-getting-started/
+│ ├── profile-setup.md
+│ └── git-basics.md
+├── 02-badges-achievements/
+│ ├── github-badges.md
+│ └── community-badges.md
+├── 03-programs-events/
+│ ├── beginner-programs.md
+│ └── calendar.md
+├── 04-finding-community/
+│ ├── making-friends.md
+│ └── finding-projects.md
+├── 05-first-contribution/
+│ ├── workflow.md
+│ └── etiquette.md
+└── sandbox/
+└── README.md
+
+Count files: README, CONTRIBUTING, CODE_OF_CONDUCT, LICENSE =4. 01:2, 02:2, 03:2, 04:2, 05:2, sandbox:1 = 15? 4+2+2+2+2+2+1=15. Actually 4+12=16? Let's count: 4 root + 2 +2+2+2+2+1 =15? 4+2=6, +2=8, +2=10, +2=12, +2=14, +1=15. Yes 15 files. Double length ~30 files. We can make 40+.
+
+Need produce tree with ~30-40 files. Then prompts for each file. That's many prompts. We can group? They said "prompts" likely for each file. We can list prompts keyed by file. Could be lengthy. Desired oververbosity 5 but user wants double length tree. We can do.
+
+Maybe structure:
+github-newbie-guide/
+├── README.md
+├── CONTRIBUTING.md
+├── CODE_OF_CONDUCT.md
+├── LICENSE
+├── .github/
+│ ├── ISSUE_TEMPLATE/
+│ │ ├── bug_report.md
+│ │ ├── resource_suggestion.md
+│ │ └── outdated_info.md
+│ ├── PULL_REQUEST_TEMPLATE.md
+│ └── workflows/
+│ └── markdown-lint.yml
+├── 00-start-here/
+│ ├── README.md
+│ ├── roadmap.md
+│ └── faq.md
+├── 01-getting-started/
+│ ├── README.md
+│ ├── create-account.md
+│ ├── profile-setup.md
+│ ├── account-security.md
+│ ├── git-basics.md
+│ ├── github-interface.md
+│ └── glossary.md
+├── 02-badges-achievements/
+│ ├── README.md
+│ ├── github-badges.md
+│ ├── community-badges.md
+│ ├── badge-tracker.md
+│ └── practice-badges.md
+├── 03-programs-events/
+│ ├── README.md
+│ ├── beginner-programs.md
+│ ├── calendar.md
+│ ├── hacktoberfest.md
+│ ├── gsoc.md
+│ ├── outreachy.md
+│ └── mlh-fellowship.md
+├── 04-finding-community/
+│ ├── README.md
+│ ├── making-friends.md
+│ ├── finding-projects.md
+│ ├── github-discussions.md
+│ ├── discord-slack.md
+│ └── networking-etiquette.md
+├── 05-first-contribution/
+│ ├── README.md
+│ ├── workflow.md
+│ ├── etiquette.md
+│ ├── good-first-issue.md
+│ ├── pull-request-checklist.md
+│ └── common-mistakes.md
+├── 06-resources/
+│ ├── README.md
+│ ├── tools.md
+│ ├── learning-links.md
+│ ├── youtube-channels.md
+│ └── books-courses.md
+├── 07-templates/
+│ ├── profile-readme-template.md
+│ ├── issue-template.md
+│ ├── pr-template.md
+│ └── project-idea-template.md
+├── 08-checklists/
+│ ├── newbie-checklist.md
+│ ├── first-pr-checklist.md
+│ ├── badge-checklist.md
+│ └── community-checklist.md
+├── 09-examples/
+│ ├── example-pr.md
+│ ├── example-issue.md
+│ ├── example-profile-readme.md
+│ └── example-contribution.md
+├── assets/
+│ ├── images/
+│ │ └── .gitkeep
+│ └── diagrams/
+│ └── .gitkeep
+└── sandbox/
+├── README.md
+├── contributors.md
+└── practice-typo.md
+
+Count: root 4. .github: 3 issue templates + PR template + workflow =5? Actually .github/ISSUE_TEMPLATE has 3, PULL_REQUEST_TEMPLATE 1, workflows/markdown-lint 1 =5. 00:3. 01:7. 02:5. 03:7. 04:6. 05:6. 06:5. 07:4. 08:4. 09:4. assets:2 .gitkeep. sandbox:3. Total: 4+5=9, +3=12, +7=19, +5=24, +7=31, +6=37, +6=43, +5=48, +4=52, +4=56, +4=60, +2=62, +3=65. That's more than double. Good. But prompts for 65 files is a lot. Maybe we can provide prompts grouped by file. User asked prompts. We can produce for all? That's long but okay. Desired oververbosity 5. But maybe too long. We can provide prompts for each file but concise. Need ensure no extra stuff. Could be massive. But user wants double length. We can maybe provide tree and a prompt list. We can keep prompts one line each.
+
+Need consider if they wanted exactly double length not 4x. But more is okay? They said "should be double the length". We can deliver much larger. Maybe not too huge. We can make ~35 files. Double of 15 is 30. Let's aim ~35. Our 65 is too much. Maybe we can trim. But user complained pathetic, double length. Let's do ~36-40 files. Tree with 38 files. Prompts for each. That's manageable.
+
+Let's design ~38 files. Original 15, double 30. Add 20 more. We can use:
+
+github-newbie-guide/
+├── README.md
+├── CONTRIBUTING.md
+├── CODE_OF_CONDUCT.md
+├── LICENSE
+├── .github/
+│ ├── ISSUE_TEMPLATE/
+│ │ ├── bug_report.md
+│ │ ├── resource_suggestion.md
+│ │ └── outdated_info.md
+│ └── PULL_REQUEST_TEMPLATE.md
+├── 00-start-here/
+│ ├── roadmap.md
+│ ├── faq.md
+│ └── glossary.md
+├── 01-getting-started/
+│ ├── profile-setup.md
+│ ├── account-security.md
+│ ├── git-basics.md
+│ └── github-interface.md
+├── 02-badges-achievements/
+│ ├── github-badges.md
+│ ├── community-badges.md
+│ └── badge-tracker.md
+├── 03-programs-events/
+│ ├── beginner-programs.md
+│ ├── calendar.md
+│ └── hacktoberfest.md
+├── 04-finding-community/
+│ ├── making-friends.md
+│ ├── finding-projects.md
+│ └── networking-etiquette.md
+├── 05-first-contribution/
+│ ├── workflow.md
+│ ├── etiquette.md
+│ └── pull-request-checklist.md
+├── 06-resources/
+│ ├── tools.md
+│ ├── learning-links.md
+│ └── project-ideas.md
+├── 07-templates/
+│ ├── profile-readme-template.md
+│ ├── issue-template.md
+│ └── pr-template.md
+├── 08-checklists/
+│ ├── newbie-checklist.md
+│ └── first-pr-checklist.md
+└── sandbox/
+├── README.md
+├── contributors.md
+└── practice-typo.md
+
+Count: root 4. .github: 4 (3 issue + PR) =8. 00:3=11. 01:4=15. 02:3=18. 03:3=21. 04:3=24. 05:3=27. 06:3=30. 07:3=33. 08:2=35. sandbox:3=38. Perfect ~2.5x. Good. Now prompts for each file. That's 38 prompts. We can write concise. Need include prompts for .github files, etc. We must output tree and prompts. No extra text. We can use code block for tree. Then "Prompts:" and list.
+
+Need ensure prompts correspond. For .github/ISSUE_TEMPLATE/bug_report.md prompt: "Write an issue template for reporting bugs in the guide." etc.
+
+Let's produce final. No extra commentary. Ensure no markdown errors. The tree should be in code block. Then prompts in code block? We can use plain list. They said just file tree and prompts. We'll do:
+
+text
+github-newbie-guide/
+...
+Prompts:
+
+README.md: ...
+CONTRIBUTING.md: ...
+...
+
+That's fine. We need maybe not include "Prompts:"? It's okay. They asked prompts. We'll include.
+
+Let's write final.
+
+text
+github-newbie-guide/
+├── README.md
+├── CONTRIBUTING.md
+├── CODE_OF_CONDUCT.md
+├── LICENSE
+├── .github/
+│   ├── ISSUE_TEMPLATE/
+│   │   ├── bug_report.md
+│   │   ├── resource_suggestion.md
+│   │   └── outdated_info.md
+│   └── PULL_REQUEST_TEMPLATE.md
+├── 00-start-here/
+│   ├── roadmap.md
+│   ├── faq.md
+│   └── glossary.md
+├── 01-getting-started/
+│   ├── profile-setup.md
+│   ├── account-security.md
+│   ├── git-basics.md
+│   └── github-interface.md
+├── 02-badges-achievements/
+│   ├── github-badges.md
+│   ├── community-badges.md
+│   └── badge-tracker.md
+├── 03-programs-events/
+│   ├── beginner-programs.md
+│   ├── calendar.md
+│   └── hacktoberfest.md
+├── 04-finding-community/
+│   ├── making-friends.md
+│   ├── finding-projects.md
+│   └── networking-etiquette.md
+├── 05-first-contribution/
+│   ├── workflow.md
+│   ├── etiquette.md
+│   └── pull-request-checklist.md
+├── 06-resources/
+│   ├── tools.md
+│   ├── learning-links.md
+│   └── project-ideas.md
+├── 07-templates/
+│   ├── profile-readme-template.md
+│   ├── issue-template.md
+│   └── pr-template.md
+├── 08-checklists/
+│   ├── newbie-checklist.md
+│   └── first-pr-checklist.md
+└── sandbox/
+    ├── README.md
+    ├── contributors.md
+    └── practice-typo.md
+README.md: Write the main README for github-newbie-guide. Include mission, beginner roadmap, quick links to every folder, and a Start Here section.
+
+CONTRIBUTING.md: Write a beginner-friendly CONTRIBUTING guide. Explain how to suggest edits, add resources, report outdated info, open issues, submit PRs, and follow style.
+
+CODE_OF_CONDUCT.md: Write a short Contributor Covenant-based CODE_OF_CONDUCT for a welcoming beginner community.
+
+LICENSE: Generate MIT License text for github-newbie-guide.
+
+.github/ISSUE_TEMPLATE/bug_report.md: Write a bug report issue template for problems in the guide repo.
+
+.github/ISSUE_TEMPLATE/resource_suggestion.md: Write an issue template for suggesting new beginner resources.
+
+.github/ISSUE_TEMPLATE/outdated_info.md: Write an issue template for reporting outdated badges, programs, or links.
+
+.github/PULL_REQUEST_TEMPLATE.md: Write a pull request template for beginner-friendly contributions to the guide.
+
+00-start-here/roadmap.md: Write a visual roadmap from GitHub newbie to first contribution, badge earner, and community member.
+
+00-start-here/faq.md: Write an FAQ for absolute GitHub beginners. Cover accounts, badges, forks, PRs, and common fears.
+
+00-start-here/glossary.md: Write a plain-English glossary of GitHub and open source terms for newbies.
+
+01-getting-started/profile-setup.md: Write a step-by-step guide to editing a GitHub account and optimizing a profile: bio, avatar, pinned repos, profile README, links.
+
+01-getting-started/account-security.md: Write a guide to GitHub account security: 2FA, SSH keys, tokens, notification settings, and recovery.
+
+01-getting-started/git-basics.md: Write a beginner Git and GitHub basics guide: fork, clone, branch, commit, push, pull request. Include copy-paste commands.
+
+01-getting-started/github-interface.md: Write a tour of the GitHub interface: repositories, issues, pull requests, actions, discussions, settings, and profile.
+
+02-badges-achievements/github-badges.md: Write a guide to official GitHub achievements: Pull Shark, Quickdraw, Pair Extraordinaire, YOLO, Public Sponsor, and others. Explain how to earn each safely.
+
+02-badges-achievements/community-badges.md: Write a guide to community and program badges: Hacktoberfest, All Contributors, project-specific badges, and how to display them.
+
+02-badges-achievements/badge-tracker.md: Write a badge tracker template where newbies can check off badges and note progress.
+
+03-programs-events/beginner-programs.md: Write a curated list of beginner-friendly open source programs: Hacktoberfest, GSoC, MLH Fellowship, Outreachy, Open Source Friday, and similar.
+
+03-programs-events/calendar.md: Create a month-by-month calendar of open source events and programs for beginners with prep windows.
+
+03-programs-events/hacktoberfest.md: Write a dedicated Hacktoberfest beginner guide: rules, registration, finding issues, submitting PRs, and avoiding spam.
+
+04-finding-community/making-friends.md: Write a guide on making friends and networking on GitHub: introductions, Discussions, Discord/Slack, commenting, pairing, and community calls.
+
+04-finding-community/finding-projects.md: Write a guide on finding beginner-friendly projects using labels like good first issue, first-timers-only, help wanted, GitHub Explore, goodfirstissue.dev, and awesome-for-beginners.
+
+04-finding-community/networking-etiquette.md: Write a guide to networking etiquette on GitHub: patience, respect, no spam, clear questions, and thanking maintainers.
+
+05-first-contribution/workflow.md: Write an end-to-end first contribution workflow with commands: fork, clone, branch, edit, test, commit, push, open PR.
+
+05-first-contribution/etiquette.md: Write an open source etiquette guide for beginners: reading CONTRIBUTING, following the code of conduct, handling feedback, and not taking rejection personally.
+
+05-first-contribution/pull-request-checklist.md: Write a checklist for submitting a clean first pull request.
+
+06-resources/tools.md: Write a list of tools useful for GitHub newbies: VS Code, GitHub Desktop, Git, Markdown editors, and issue finders.
+
+06-resources/learning-links.md: Write a curated list of beginner-friendly GitHub, Git, and open source learning links.
+
+06-resources/project-ideas.md: Write a list of beginner project ideas to build or contribute to for practice.
+
+07-templates/profile-readme-template.md: Write a reusable profile README template for GitHub newbies.
+
+07-templates/issue-template.md: Write a reusable issue template that beginners can use in their own projects.
+
+07-templates/pr-template.md: Write a reusable pull request template that beginners can use in their own projects.
+
+08-checklists/newbie-checklist.md: Write a checklist for GitHub newbies covering account setup, profile, security, first repo, and first issue.
+
+08-checklists/first-pr-checklist.md: Write a checklist for making a first pull request from fork to merge.
+
+sandbox/README.md: Write a sandbox README explaining that newbies can practice pull requests here safely.
+
+sandbox/contributors.md: Write a contributors list file where newbies can add their name during practice PRs.
+
+sandbox/practice-typo.md: Write a practice file with a deliberate typo that newbies can fix in a sandbox pull request.
+
+This response is AI-generated, for reference only.
+I dont see a promotional index.html in there, i dont see anything they can download, i dont see anything at all
+We need answer. User is upset. They asked earlier "i dont need your extra stuff just the file tree and promprs". Then "that file tree is pathetic it should be double the length". Assistant provided expanded tree and prompts. Now user: "I dont see a promotional index.html in there, i dont see anything they can download, i dont see anything at all". They want promotional index.html and downloadable resources. We need respond. Need probably provide updated file tree and prompts? They complain missing. We should acknowledge, and give revised tree including index.html, downloadable assets, etc. They said just file tree and prompts before, so likely they want exactly that: updated file tree and prompts. We should not over-explain. Provide updated tree with promotional index.html, downloadable stuff. Need maybe include /docs, /site, /assets, /downloads, /printables, /cheatsheets. Maybe index.html at root or /site/index.html. Also downloadable PDFs, markdown, checklists, badge tracker, templates. Add prompts for each new file. They said "I dont see anything at all" meaning missing. We should apologize briefly. Then give corrected file tree and prompts. Ensure double length? Could be longer. We can include many files. Need include promotional index.html. Maybe also README is markdown, but index.html for GitHub Pages promotional landing page. Add downloadable files under /downloads or /assets/downloads. Include CSS/JS. Include images. Include LICENSE etc. Need prompts for each file. They asked "just the file tree and prompts". So final should be file tree and prompts. No extra fluff. But we can have a brief line "Here's the corrected tree with promotional index.html and downloadable assets..." then code block tree, then code block prompts. That's it. Ensure prompts cover all files. Need be careful not to add "extra stuff" like explanations. We can include all.
+
+Need decide structure. Let's design comprehensive tree. Root:
+github-newbie-guide/
+├── README.md
+├── CONTRIBUTING.md
+├── CODE_OF_CONDUCT.md
+├── LICENSE
+├── index.html <-- promotional landing page
+├── package.json? maybe not needed. But for site? Could have.
+├── .github/
+│ ├── ISSUE_TEMPLATE/
+│ │ ├── bug_report.md
+│ │ ├── resource_suggestion.md
+│ │ └── outdated_info.md
+│ └── PULL_REQUEST_TEMPLATE.md
+├── 00-start-here/
+│ ├── roadmap.md
+│ ├── faq.md
+│ └── glossary.md
+├── 01-getting-started/
+│ ├── profile-setup.md
+│ ├── account-security.md
+│ ├── git-basics.md
+│ └── github-interface.md
+├── 02-badges-achievements/
+│ ├── github-badges.md
+│ ├── community-badges.md
+│ └── badge-tracker.md
+├── 03-programs-events/
+│ ├── beginner-programs.md
+│ ├── calendar.md
+│ └── hacktoberfest.md
+├── 04-finding-community/
+│ ├── making-friends.md
+│ ├── finding-projects.md
+│ └── networking-etiquette.md
+├── 05-first-contribution/
+│ ├── workflow.md
+│ ├── etiquette.md
+│ └── pull-request-checklist.md
+├── 06-resources/
+│ ├── tools.md
+│ ├── learning-links.md
+│ └── project-ideas.md
+├── 07-templates/
+│ ├── profile-readme-template.md
+│ ├── issue-template.md
+│ └── pr-template.md
+├── 08-checklists/
+│ ├── newbie-checklist.md
+│ └── first-pr-checklist.md
+├── 09-downloads/
+│ ├── README.md
+│ ├── github-newbie-guide.pdf
+│ ├── newbie-checklist.pdf
+│ ├── first-pr-checklist.pdf
+│ ├── badge-tracker.pdf
+│ ├── profile-readme-template.md
+│ ├── issue-template.md
+│ ├── pr-template.md
+│ └── cheat-sheet.pdf
+├── assets/
+│ ├── css/
+│ │ └── style.css
+│ ├── js/
+│ │ └── main.js
+│ ├── img/
+│ │ ├── logo.svg
+│ │ ├── hero.png
+│ │ ├── roadmap.png
+│ │ ├── badges.png
+│ │ └── og-image.png
+│ └── fonts/
+│ └── .gitkeep
+├── docs/
+│ ├── index.html
+│ ├── about.html
+│ ├── download.html
+│ └── contribute.html
+├── sandbox/
+│ ├── README.md
+│ ├── contributors.md
+│ └── practice-typo.md
+└── .nojekyll? maybe for GitHub Pages.
+Maybe include CNAME? Optional.
+
+Also downloads: actual binary PDFs can't be generated by prompt? We can include prompts to "Write content for PDF" but PDFs are binary. But user wants anything they can download. We can include markdown, PDF placeholders. Could include .pdf files but prompts for PDF content? We can prompt to create PDF via markdown? In repo, PDFs need to be generated. We can include a script to generate PDFs. Add scripts/ directory. e.g. scripts/generate-pdfs.sh, scripts/build-site.sh. Also downloadable ZIP. Maybe /downloads/github-newbie-guide.zip. But binary. We can have prompt to create build script that packages downloads. Better.
+
+Add:
+├── scripts/
+│ ├── build-site.sh
+│ ├── generate-pdfs.sh
+│ └── package-downloads.sh
+├── downloads/ maybe generated. But include .gitkeep.
+Maybe root index.html for promotional landing page. docs/ for GitHub Pages? If using GitHub Pages, root or docs. Simpler: index.html at root, assets/ for css/js. That's promotional site. Also download page. docs/ maybe duplicate. Better: root index.html and pages. Use index.html, about.html, download.html, contribute.html. assets/css/style.css, assets/js/main.js. That's fine.
+
+Need prompts for each. We can keep prompts concise but complete. There are ~60 files. That's okay. We can list as "path: prompt". Need no extra. We'll provide tree first, then prompts. We should ensure tree includes index.html and downloads. Maybe we can say "Here is the corrected tree with promotional index.html, downloadable assets, build scripts, and site files. Then prompts." That's minimal.
+
+Need maybe include "promotional index.html" at root. Also "download.html" for downloads. "assets/downloads/" maybe. Let's refine.
+
+Tree:
+
+github-newbie-guide/
+├── README.md
+├── CONTRIBUTING.md
+├── CODE_OF_CONDUCT.md
+├── LICENSE
+├── index.html
+├── about.html
+├── download.html
+├── contribute.html
+├── 404.html
+├── .nojekyll
+├── .github/
+│ ├── ISSUE_TEMPLATE/
+│ │ ├── bug_report.md
+│ │ ├── resource_suggestion.md
+│ │ └── outdated_info.md
+│ └── PULL_REQUEST_TEMPLATE.md
+├── 00-start-here/
+│ ├── roadmap.md
+│ ├── faq.md
+│ └── glossary.md
+├── 01-getting-started/
+│ ├── profile-setup.md
+│ ├── account-security.md
+│ ├── git-basics.md
+│ └── github-interface.md
+├── 02-badges-achievements/
+│ ├── github-badges.md
+│ ├── community-badges.md
+│ └── badge-tracker.md
+├── 03-programs-events/
+│ ├── beginner-programs.md
+│ ├── calendar.md
+│ └── hacktoberfest.md
+├── 04-finding-community/
+│ ├── making-friends.md
+│ ├── finding-projects.md
+│ └── networking-etiquette.md
+├── 05-first-contribution/
+│ ├── workflow.md
+│ ├── etiquette.md
+│ └── pull-request-checklist.md
+├── 06-resources/
+│ ├── tools.md
+│ ├── learning-links.md
+│ └── project-ideas.md
+├── 07-templates/
+│ ├── profile-readme-template.md
+│ ├── issue-template.md
+│ └── pr-template.md
+├── 08-checklists/
+│ ├── newbie-checklist.md
+│ └── first-pr-checklist.md
+├── 09-downloads/
+│ ├── README.md
+│ ├── github-newbie-guide.md
+│ ├── github-newbie-guide.pdf
+│ ├── newbie-checklist.md
+│ ├── newbie-checklist.pdf
+│ ├── first-pr-checklist.md
+│ ├── first-pr-checklist.pdf
+│ ├── badge-tracker.md
+│ ├── badge-tracker.pdf
+│ ├── profile-readme-template.md
+│ ├── issue-template.md
+│ ├── pr-template.md
+│ ├── cheat-sheet.md
+│ └── cheat-sheet.pdf
+├── assets/
+│ ├── css/
+│ │ ├── style.css
+│ │ └── print.css
+│ ├── js/
+│ │ └── main.js
+│ ├── img/
+│ │ ├── logo.svg
+│ │ ├── hero.png
+│ │ ├── roadmap.png
+│ │ ├── badges.png
+│ │ ├── og-image.png
+│ │ └── favicon.ico
+│ └── fonts/
+│ └── .gitkeep
+├── scripts/
+│ ├── build-site.sh
+│ ├── generate-pdfs.sh
+│ └── package-downloads.sh
+├── sandbox/
+│ ├── README.md
+│ ├── contributors.md
+│ └── practice-typo.md
+└── .gitignore
+
+That's double the previous. Good.
+
+Prompts for each file. Need list all. For binary files like .pdf, .png, .ico, we can't "write" them via prompt; but we can prompt to generate placeholders or instructions? We can say "Create placeholder..." or "Write script that generates..." But user asked prompts. We can provide prompts for content files and generation scripts for binaries. For images, prompt for SVG and placeholder instructions. For PDFs, prompt for script to generate PDFs from markdown. That covers downloadable. We should include index.html prompt. Maybe "promotional index.html" at root.
+
+We need final answer. Should be just tree and prompts. We can include code blocks. No extra explanations. Ensure not too verbose but complete. Desired oververbosity 5. But user wants exact. We'll deliver.
+
+Potential issue: They said "I dont see anything at all" maybe they want actual files? We can't create files, but can provide prompts. We can also provide a bash script to scaffold? That might be extra. But they asked file tree and prompts. We'll stick.
+
+Maybe include a "scaffold.sh" prompt? That would create files. But not asked. Could be useful. But "I dont see anything they can download" – downloads folder and scripts address. Maybe include a script to generate all files? Hmm. They might want actual downloadable index.html? We can provide code for index.html? They said "just the file tree and promprs" earlier. Now they complain missing index.html. So we should include index.html in tree and a prompt for it. That's what they asked. We won't provide actual HTML content, just prompt. But they said "I dont see anything at all" maybe they want actual content? However previous instruction: "i dont need your extra stuff just the file tree and prompts". So stick to that. But maybe we can add a note: "Here is the corrected tree and prompts, including index.html and downloads." That's fine.
+
+Let's compose. Ensure prompts cover all files in tree. We'll format as:
+
+text
+[tree]
+text
+README.md:
+...
+We need list all. Could be long. That's okay.
+
+Need include .gitignore prompt. .nojekyll prompt. 404.html. about.html, download.html, contribute.html. assets/css/print.css. scripts. downloads md and pdf placeholders. For PDFs, prompt: "Write a script to convert 09-downloads/*.md to PDF..." Actually file is .pdf; prompt for generate-pdfs.sh covers. But if listing 09-downloads/github-newbie-guide.pdf: prompt: "Placeholder/generated PDF; write generation script in scripts/generate-pdfs.sh." That is meta. But okay.
+
+Maybe we can simplify: For binary/placeholder files, prompt says "Create placeholder file with instructions..." But that's not a prompt for content. Hmm.
+
+Let's write prompts in a way that if someone uses an AI to generate the repo, it knows what to do. For .pdf: "Generate this PDF from 09-downloads/github-newbie-guide.md using scripts/generate-pdfs.sh." That's a prompt? It's instruction. Fine.
+
+We need ensure no missing. Let's enumerate.
+
+Tree files:
+README.md
+CONTRIBUTING.md
+CODE_OF_CONDUCT.md
+LICENSE
+index.html
+about.html
+download.html
+contribute.html
+404.html
+.nojekyll
+.gitignore
+.github/ISSUE_TEMPLATE/bug_report.md
+.github/ISSUE_TEMPLATE/resource_suggestion.md
+.github/ISSUE_TEMPLATE/outdated_info.md
+.github/PULL_REQUEST_TEMPLATE.md
+00-start-here/roadmap.md
+00-start-here/faq.md
+00-start-here/glossary.md
+01-getting-started/profile-setup.md
+01-getting-started/account-security.md
+01-getting-started/git-basics.md
+01-getting-started/github-interface.md
+02-badges-achievements/github-badges.md
+02-badges-achievements/community-badges.md
+02-badges-achievements/badge-tracker.md
+03-programs-events/beginner-programs.md
+03-programs-events/calendar.md
+03-programs-events/hacktoberfest.md
+04-finding-community/making-friends.md
+04-finding-community/finding-projects.md
+04-finding-community/networking-etiquette.md
+05-first-contribution/workflow.md
+05-first-contribution/etiquette.md
+05-first-contribution/pull-request-checklist.md
+06-resources/tools.md
+06-resources/learning-links.md
+06-resources/project-ideas.md
+07-templates/profile-readme-template.md
+07-templates/issue-template.md
+07-templates/pr-template.md
+08-checklists/newbie-checklist.md
+08-checklists/first-pr-checklist.md
+09-downloads/README.md
+09-downloads/github-newbie-guide.md
+09-downloads/github-newbie-guide.pdf
+09-downloads/newbie-checklist.md
+09-downloads/newbie-checklist.pdf
+09-downloads/first-pr-checklist.md
+09-downloads/first-pr-checklist.pdf
+09-downloads/badge-tracker.md
+09-downloads/badge-tracker.pdf
+09-downloads/profile-readme-template.md
+09-downloads/issue-template.md
+09-downloads/pr-template.md
+09-downloads/cheat-sheet.md
+09-downloads/cheat-sheet.pdf
+assets/css/style.css
+assets/css/print.css
+assets/js/main.js
+assets/img/logo.svg
+assets/img/hero.png
+assets/img/roadmap.png
+assets/img/badges.png
+assets/img/og-image.png
+assets/img/favicon.ico
+assets/fonts/.gitkeep
+scripts/build-site.sh
+scripts/generate-pdfs.sh
+scripts/package-downloads.sh
+sandbox/README.md
+sandbox/contributors.md
+sandbox/practice-typo.md
+
+Total 70+. Good.
+
+Prompts: We can combine some similar. But user wants prompts. We'll provide.
+
+Need be concise. For each: path: prompt. We can group under headings? They said just file tree and prompts. Headings maybe okay. But to minimize, just list.
+
+Let's draft.
+
+For index.html: "Write a promotional landing page for github-newbie-guide. Include hero, benefits, roadmap preview, badges, downloads CTA, contribute CTA, and links to about/download/contribute."
+
+about.html: "Write an about page for the project mission and who it's for."
+
+download.html: "Write a download page listing all files in 09-downloads with buttons and descriptions."
+
+contribute.html: "Write a contribute page explaining how to help, with links to CONTRIBUTING and sandbox."
+
+404.html: "Write a friendly 404 page linking back to index."
+
+.nojekyll: "Create empty .nojekyll file for GitHub Pages."
+
+.gitignore: "Write .gitignore for a static site and generated PDFs/temp files."
+
+For .github templates: prompts.
+
+For .md content: prompts as before.
+
+For 09-downloads: For .md duplicates, prompt "Copy/adapt content from [source].md into a downloadable standalone version." For .pdf: "Generated by scripts/generate-pdfs.sh from matching .md." For README: "Explain downloads folder and how to regenerate."
+
+Assets: CSS/JS/images. For images: logo.svg: "Create SVG logo..." hero.png: "Create placeholder hero image..." etc. For favicon.ico: "Create favicon." For .gitkeep: "Create empty .gitkeep."
+
+Scripts: build-site.sh: "Write shell script to build static site..." generate-pdfs.sh: "Write shell script to convert 09-downloads/*.md to PDF using pandoc/wkhtmltopdf..." package-downloads.sh: "Write shell script to zip 09-downloads into github-newbie-guide.zip..."
+
+Sandbox: as before.
+
+We should maybe mention that PDFs/images are binary and should be generated. But that's extra. We can put in prompts.
+
+Final answer should be only tree and prompts. We can have two code blocks. That satisfies.
+
+Let's ensure no accidental extra commentary. We'll start with "text" tree, then "text" prompts. That's it. Use no markdown outside? Fine.
+
+We need be careful with code block containing backticks? No.
+
+Let's write final.
+
+text
+github-newbie-guide/
+├── README.md
+├── CONTRIBUTING.md
+├── CODE_OF_CONDUCT.md
+├── LICENSE
+├── index.html
+├── about.html
+├── download.html
+├── contribute.html
+├── 404.html
+├── .nojekyll
+├── .gitignore
+├── .github/
+│   ├── ISSUE_TEMPLATE/
+│   │   ├── bug_report.md
+│   │   ├── resource_suggestion.md
+│   │   └── outdated_info.md
+│   └── PULL_REQUEST_TEMPLATE.md
+├── 00-start-here/
+│   ├── roadmap.md
+│   ├── faq.md
+│   └── glossary.md
+├── 01-getting-started/
+│   ├── profile-setup.md
+│   ├── account-security.md
+│   ├── git-basics.md
+│   └── github-interface.md
+├── 02-badges-achievements/
+│   ├── github-badges.md
+│   ├── community-badges.md
+│   └── badge-tracker.md
+├── 03-programs-events/
+│   ├── beginner-programs.md
+│   ├── calendar.md
+│   └── hacktoberfest.md
+├── 04-finding-community/
+│   ├── making-friends.md
+│   ├── finding-projects.md
+│   └── networking-etiquette.md
+├── 05-first-contribution/
+│   ├── workflow.md
+│   ├── etiquette.md
+│   └── pull-request-checklist.md
+├── 06-resources/
+│   ├── tools.md
+│   ├── learning-links.md
+│   └── project-ideas.md
+├── 07-templates/
+│   ├── profile-readme-template.md
+│   ├── issue-template.md
+│   └── pr-template.md
+├── 08-checklists/
+│   ├── newbie-checklist.md
+│   └── first-pr-checklist.md
+├── 09-downloads/
+│   ├── README.md
+│   ├── github-newbie-guide.md
+│   ├── github-newbie-guide.pdf
+│   ├── newbie-checklist.md
+│   ├── newbie-checklist.pdf
+│   ├── first-pr-checklist.md
+│   ├── first-pr-checklist.pdf
+│   ├── badge-tracker.md
+│   ├── badge-tracker.pdf
+│   ├── profile-readme-template.md
+│   ├── issue-template.md
+│   ├── pr-template.md
+│   ├── cheat-sheet.md
+│   └── cheat-sheet.pdf
+├── assets/
+│   ├── css/
+│   │   ├── style.css
+│   │   └── print.css
+│   ├── js/
+│   │   └── main.js
+│   ├── img/
+│   │   ├── logo.svg
+│   │   ├── hero.png
+│   │   ├── roadmap.png
+│   │   ├── badges.png
+│   │   ├── og-image.png
+│   │   └── favicon.ico
+│   └── fonts/
+│       └── .gitkeep
+├── scripts/
+│   ├── build-site.sh
+│   ├── generate-pdfs.sh
+│   └── package-downloads.sh
+└── sandbox/
+    ├── README.md
+    ├── contributors.md
+    └── practice-typo.md
+text
+README.md: Write the main README for github-newbie-guide. Include mission, beginner roadmap, quick links to every folder, Start Here, and download links.
+
+CONTRIBUTING.md: Write a beginner-friendly CONTRIBUTING guide. Explain how to suggest edits, add resources, report outdated info, open issues, submit PRs, and follow style.
+
+CODE_OF_CONDUCT.md: Write a short Contributor Covenant-based CODE_OF_CONDUCT for a welcoming beginner community.
+
+LICENSE: Generate MIT License text for github-newbie-guide.
+
+index.html: Write a promotional landing page for github-newbie-guide. Include hero, benefits, roadmap preview, badges, downloads CTA, contribute CTA, and links to about/download/contribute.
+
+about.html: Write an about page for the project mission and who it is for.
+
+download.html: Write a download page listing all files in 09-downloads with buttons and descriptions.
+
+contribute.html: Write a contribute page explaining how to help, with links to CONTRIBUTING and sandbox.
+
+404.html: Write a friendly 404 page linking back to index.
+
+.nojekyll: Create an empty .nojekyll file for GitHub Pages.
+
+.gitignore: Write .gitignore for a static site, generated PDFs, temp files, and build output.
+
+.github/ISSUE_TEMPLATE/bug_report.md: Write a bug report issue template for problems in the guide repo.
+
+.github/ISSUE_TEMPLATE/resource_suggestion.md: Write an issue template for suggesting new beginner resources.
+
+.github/ISSUE_TEMPLATE/outdated_info.md: Write an issue template for reporting outdated badges, programs, or links.
+
+.github/PULL_REQUEST_TEMPLATE.md: Write a pull request template for beginner-friendly contributions to the guide.
+
+00-start-here/roadmap.md: Write a visual roadmap from GitHub newbie to first contribution, badge earner, and community member.
+
+00-start-here/faq.md: Write an FAQ for absolute GitHub beginners. Cover accounts, badges, forks, PRs, and common fears.
+
+00-start-here/glossary.md: Write a plain-English glossary of GitHub and open source terms for newbies.
+
+01-getting-started/profile-setup.md: Write a step-by-step guide to editing a GitHub account and optimizing a profile: bio, avatar, pinned repos, profile README, links.
+
+01-getting-started/account-security.md: Write a guide to GitHub account security: 2FA, SSH keys, tokens, notification settings, and recovery.
+
+01-getting-started/git-basics.md: Write a beginner Git and GitHub basics guide: fork, clone, branch, commit, push, pull request. Include copy-paste commands.
+
+01-getting-started/github-interface.md: Write a tour of the GitHub interface: repositories, issues, pull requests, actions, discussions, settings, and profile.
+
+02-badges-achievements/github-badges.md: Write a guide to official GitHub achievements: Pull Shark, Quickdraw, Pair Extraordinaire, YOLO, Public Sponsor, and others. Explain how to earn each safely.
+
+02-badges-achievements/community-badges.md: Write a guide to community and program badges: Hacktoberfest, All Contributors, project-specific badges, and how to display them.
+
+02-badges-achievements/badge-tracker.md: Write a badge tracker template where newbies can check off badges and note progress.
+
+03-programs-events/beginner-programs.md: Write a curated list of beginner-friendly open source programs: Hacktoberfest, GSoC, MLH Fellowship, Outreachy, Open Source Friday, and similar.
+
+03-programs-events/calendar.md: Create a month-by-month calendar of open source events and programs for beginners with prep windows.
+
+03-programs-events/hacktoberfest.md: Write a dedicated Hacktoberfest beginner guide: rules, registration, finding issues, submitting PRs, and avoiding spam.
+
+04-finding-community/making-friends.md: Write a guide on making friends and networking on GitHub: introductions, Discussions, Discord/Slack, commenting, pairing, and community calls.
+
+04-finding-community/finding-projects.md: Write a guide on finding beginner-friendly projects using labels like good first issue, first-timers-only, help wanted, GitHub Explore, goodfirstissue.dev, and awesome-for-beginners.
+
+04-finding-community/networking-etiquette.md: Write a guide to networking etiquette on GitHub: patience, respect, no spam, clear questions, and thanking maintainers.
+
+05-first-contribution/workflow.md: Write an end-to-end first contribution workflow with commands: fork, clone, branch, edit, test, commit, push, open PR.
+
+05-first-contribution/etiquette.md: Write an open source etiquette guide for beginners: reading CONTRIBUTING, following the code of conduct, handling feedback, and not taking rejection personally.
+
+05-first-contribution/pull-request-checklist.md: Write a checklist for submitting a clean first pull request.
+
+06-resources/tools.md: Write a list of tools useful for GitHub newbies: VS Code, GitHub Desktop, Git, Markdown editors, and issue finders.
+
+06-resources/learning-links.md: Write a curated list of beginner-friendly GitHub, Git, and open source learning links.
+
+06-resources/project-ideas.md: Write a list of beginner project ideas to build or contribute to for practice.
+
+07-templates/profile-readme-template.md: Write a reusable profile README template for GitHub newbies.
+
+07-templates/issue-template.md: Write a reusable issue template that beginners can use in their own projects.
+
+07-templates/pr-template.md: Write a reusable pull request template that beginners can use in their own projects.
+
+08-checklists/newbie-checklist.md: Write a checklist for GitHub newbies covering account setup, profile, security, first repo, and first issue.
+
+08-checklists/first-pr-checklist.md: Write a checklist for making a first pull request from fork to merge.
+
+09-downloads/README.md: Explain the downloads folder and how to regenerate PDFs and ZIP files.
+
+09-downloads/github-newbie-guide.md: Create a standalone downloadable version of the full guide by combining the main sections.
+
+09-downloads/github-newbie-guide.pdf: Generate this PDF from 09-downloads/github-newbie-guide.md using scripts/generate-pdfs.sh.
+
+09-downloads/newbie-checklist.md: Create a standalone downloadable version of 08-checklists/newbie-checklist.md.
+
+09-downloads/newbie-checklist.pdf: Generate this PDF from 09-downloads/newbie-checklist.md using scripts/generate-pdfs.sh.
+
+09-downloads/first-pr-checklist.md: Create a standalone downloadable version of 08-checklists/first-pr-checklist.md.
+
+09-downloads/first-pr-checklist.pdf: Generate this PDF from 09-downloads/first-pr-checklist.md using scripts/generate-pdfs.sh.
+
+09-downloads/badge-tracker.md: Create a standalone downloadable version of 02-badges-achievements/badge-tracker.md.
+
+09-downloads/badge-tracker.pdf: Generate this PDF from 09-downloads/badge-tracker.md using scripts/generate-pdfs.sh.
+
+09-downloads/profile-readme-template.md: Create a standalone downloadable version of 07-templates/profile-readme-template.md.
+
+09-downloads/issue-template.md: Create a standalone downloadable version of 07-templates/issue-template.md.
+
+09-downloads/pr-template.md: Create a standalone downloadable version of 07-templates/pr-template.md.
+
+09-downloads/cheat-sheet.md: Write a one-page cheat sheet for GitHub newbies covering fork, clone, branch, commit, push, PR, badges, and labels.
+
+09-downloads/cheat-sheet.pdf: Generate this PDF from 09-downloads/cheat-sheet.md using scripts/generate-pdfs.sh.
+
+assets/css/style.css: Write CSS for a clean, responsive promotional site for github-newbie-guide.
+
+assets/css/print.css: Write print-friendly CSS for downloadable checklists and cheat sheets.
+
+assets/js/main.js: Write JavaScript for mobile nav, smooth scroll, and download buttons.
+
+assets/img/logo.svg: Create an SVG logo for github-newbie-guide.
+
+assets/img/hero.png: Create a placeholder hero image for the promotional index.html.
+
+assets/img/roadmap.png: Create a placeholder roadmap image for the promotional site.
+
+assets/img/badges.png: Create a placeholder badges image for the promotional site.
+
+assets/img/og-image.png: Create a placeholder Open Graph social share image.
+
+assets/img/favicon.ico: Create a favicon for the promotional site.
+
+assets/fonts/.gitkeep: Create an empty .gitkeep file.
+
+scripts/build-site.sh: Write a shell script to build the static promotional site from index.html, about.html, download.html, contribute.html, and assets.
+
+scripts/generate-pdfs.sh: Write a shell script to convert 09-downloads/*.md to PDF using pandoc or wkhtmltopdf.
+
+scripts/package-downloads.sh: Write a shell script to zip 09-downloads into github-newbie-guide.zip for easy download.
+
+sandbox/README.md: Write a sandbox README explaining that newbies can practice pull requests here safely.
+
+sandbox/contributors.md: Write a contributors list file where newbies can add their name during practice PRs.
+
+sandbox/practice-typo.md: Write a practice file with a deliberate typo that newbies can fix in a sandbox pull request.
+This response is AI-generated, for reference only.
+I dont want thins to be boring or basic information, I want them to know about github gist which is like thier social feed or github community discussion which is the github equivenlatn of reddit or facebook etc etc, also how to get all the achivements but most importantantly how to make sure they appear on their profile, how to name a readme.md their username to get a speical repo that appears on their profile etc etc
+The user wants to make their GitHub newbie guide more engaging and advanced, focusing on social features like Gists and Community Discussions, all achievements and how to display them, and the special profile README repo trick. I need to search for current information on these topics to provide accurate and exciting content. I'll search for Gists, achievements, profile README, and Community Discussions.
+
+Found 75 web pages
+The search results provide some starting points but are not comprehensive enough for a detailed guide. I need to open specific pages to gather more in-depth information. I'll open pages related to Gists, achievements, profile README, and Discussions.
+
+Read 7 pages
+Creating gists - GitHub Docs
+GitHub - Sriansh-raj/GitHub-Achievements: A complete list of the available GitHub achievements and badges and all about how to get them 🔥 · GitHub - GitHub - Sriansh-raj/GitHub-Achievements: A complete list of the available GitHub achievements and badges and all about how to g...
+How do I customize my GitHub profile with a README? · community · Discussion #169002 - {{ message }}
+GitHub - smirk-dev/Guide-to-levelling-up-on-Github: Master GitHub's two most popular ranking systems! Complete guide to GitHub Profile Stats & Trophies with visual setup tutorials, trophy requirements, strategic tips, and stunning profile examples. Transform your GitHub presence today! ⭐🏆 · GitHub - 🎨 Customization Showcase
+How do I add a README to my GitHub profile? · community · Discussion #165383 - {{ message }}
+View All
+The opened pages provide detailed information on Gists, achievements, profile README, and Discussions. I now need to gather more information on specific topics like "GitHub Gist social feed" and "Community Discussions" to make the guide more engaging. I'll search for these specific aspects.
+
+Found 58 web pages
+The search results provide a good amount of information. I need to synthesize this into a comprehensive and engaging guide. The user wants to make the guide more exciting and advanced, focusing on social features like Gists and Community Discussions, all achievements and how to display them, and the special profile README repo trick. I'll structure the response by updating the file tree and prompts to include these new, more advanced topics. I'll also add some sample content to show how to make it engaging. I'll need to cite the sources I used for the specific details about Gists, achievements, profile README, and Discussions.
+
+Here's the updated file tree and prompts—now with the GitHub-as-a-social-platform angle baked in: Gists as a social feed, Discussions as Reddit-for-devs, all achievements + how to make them actually appear on your profile, and the secret username-repo trick.
+
+Updated File Tree
+text
+github-newbie-guide/
+├── README.md
+├── CONTRIBUTING.md
+├── CODE_OF_CONDUCT.md
+├── LICENSE
+├── index.html
+├── about.html
+├── download.html
+├── contribute.html
+├── 404.html
+├── .nojekyll
+├── .gitignore
+├── .github/
+│   ├── ISSUE_TEMPLATE/
+│   │   ├── bug_report.md
+│   │   ├── resource_suggestion.md
+│   │   └── outdated_info.md
+│   └── PULL_REQUEST_TEMPLATE.md
+├── 00-start-here/
+│   ├── roadmap.md
+│   ├── faq.md
+│   ├── glossary.md
+│   └── github-is-social.md
+├── 01-getting-started/
+│   ├── profile-setup.md
+│   ├── secret-profile-readme.md
+│   ├── account-security.md
+│   ├── git-basics.md
+│   └── github-interface.md
+├── 02-badges-achievements/
+│   ├── all-achievements.md
+│   ├── github-badges.md
+│   ├── community-badges.md
+│   ├── badge-display-settings.md
+│   └── badge-tracker.md
+├── 03-programs-events/
+│   ├── beginner-programs.md
+│   ├── calendar.md
+│   └── hacktoberfest.md
+├── 04-finding-community/
+│   ├── making-friends.md
+│   ├── github-gists-social-feed.md
+│   ├── github-discussions-reddit.md
+│   ├── finding-projects.md
+│   └── networking-etiquette.md
+├── 05-first-contribution/
+│   ├── workflow.md
+│   ├── etiquette.md
+│   └── pull-request-checklist.md
+├── 06-resources/
+│   ├── tools.md
+│   ├── learning-links.md
+│   └── project-ideas.md
+├── 07-templates/
+│   ├── profile-readme-template.md
+│   ├── issue-template.md
+│   └── pr-template.md
+├── 08-checklists/
+│   ├── newbie-checklist.md
+│   └── first-pr-checklist.md
+├── 09-downloads/
+│   ├── README.md
+│   ├── github-newbie-guide.md
+│   ├── github-newbie-guide.pdf
+│   ├── newbie-checklist.md
+│   ├── newbie-checklist.pdf
+│   ├── first-pr-checklist.md
+│   ├── first-pr-checklist.pdf
+│   ├── badge-tracker.md
+│   ├── badge-tracker.pdf
+│   ├── profile-readme-template.md
+│   ├── issue-template.md
+│   ├── pr-template.md
+│   ├── cheat-sheet.md
+│   └── cheat-sheet.pdf
+├── assets/
+│   ├── css/
+│   │   ├── style.css
+│   │   └── print.css
+│   ├── js/
+│   │   └── main.js
+│   ├── img/
+│   │   ├── logo.svg
+│   │   ├── hero.png
+│   │   ├── roadmap.png
+│   │   ├── badges.png
+│   │   ├── og-image.png
+│   │   └── favicon.ico
+│   └── fonts/
+│       └── .gitkeep
+├── scripts/
+│   ├── build-site.sh
+│   ├── generate-pdfs.sh
+│   └── package-downloads.sh
+└── sandbox/
+    ├── README.md
+    ├── contributors.md
+    └── practice-typo.md
+Updated Prompts (New & Revised Files Only)
+00-start-here/github-is-social.md:
+Write a hype intro called "GitHub Is Not Just for Code." Explain that GitHub is a social platform with Gists (your feed), Discussions (Reddit for devs), profile READMEs (your personal website), achievements (your gamer score), and following/starring (your social graph). Make newbies excited to explore the social side.
+
+01-getting-started/secret-profile-readme.md:
+Write a step-by-step guide to the SECRET profile README repo. Explain: create a new repo, name it EXACTLY your username (case-sensitive), GitHub shows ✨ "You found a secret!" ✨, make it public, check "Add a README file," and the README appears on your profile. Include the exact message GitHub shows and what the repo looks like. Add examples of what to put in it: intro, skills with Shields.io badges, GitHub stats cards, pinned projects.
+
+02-badges-achievements/all-achievements.md:
+Write a COMPLETE guide to every GitHub achievement with exact requirements and tiers. Include: Pull Shark (2/16/128/1024 merged PRs), Quickdraw (close issue/PR within 5 min), Pair Extraordinaire (co-authored commits: 1/10/24/48), YOLO (merge without review), Public Sponsor (sponsor anyone), Galaxy Brain (2/8/16/32 accepted discussion answers), Starstruck (16/128/512/4096 stars on a repo), Heart On Your Sleeve (react with ❤️). Also list retired badges: Mars 2020 Helicopter Contributor, Arctic Code Vault Contributor. For each, give the fastest legitimate way to earn it. No spam, no bots.
+
+02-badges-achievements/badge-display-settings.md:
+Write a guide to MAKING SURE badges actually appear on your profile. Cover: achievements are ON by default, how to opt out/in via Settings → Profile Settings → "Show Achievements on my profile" → Update preferences, how to toggle individual achievements via the eye icon on the achievement detail view, how private contributions setting affects badge visibility, and common reasons badges don't show up (hidden profile, private contributions off, achievement not yet triggered). Include direct links to settings pages.
+
+04-finding-community/github-gists-social-feed.md:
+Write a guide to Gists as a social feed. Explain: Gists are lightweight version-controlled pastebins. Public gists show up in Discover and are searchable. Secret gists are link-only (NOT private). You can star, fork, comment on, and subscribe to gists. You can PIN gists to your profile alongside repos. Dynamic pinned gists (waka-box, activity-box, bird-box) auto-update to show your latest activity. Give examples: sharing a config, a snippet, a README, a tutorial. This is your "tweet" on GitHub.
+
+04-finding-community/github-discussions-reddit.md:
+Write a guide to GitHub Discussions as the Reddit/Facebook of GitHub. Explain: Discussions has Reddit-like features including upvoting, threaded replies, and pinning. Every repo can have its own Discussion board. It's a lower-barrier entry point than issues and PRs for newcomers. Categories include: Announcements, General, Ideas, Polls, Q&A, Show and Tell. You can earn the Galaxy Brain badge by getting answers accepted. How to find active Discussions: browse repos you like, check the Discussions tab, introduce yourself. Mention the GitHub Community forum at github.com/orgs/community/discussions.
+
+06-resources/tools.md:
+Update to include: GitHub Readme Stats (for profile README stats cards), Shields.io (for skill badges), dynamic pinned gists (waka-box for WakaTime, activity-box for recent activity, bird-box for tweets), and Awesome Profile README Templates for inspiration.
+
+07-templates/profile-readme-template.md:
+Write a reusable profile README template with placeholders. Include: greeting header, About Me section, current focus, skills with Shields.io badge examples, GitHub stats card markdown, social links, and a "currently working on" section. Make it copy-paste ready.
+
+assets/img/hero.png:
+Create a placeholder hero image showing a GitHub profile with badges, a profile README, and social elements like Discussions and Gists.
+
+assets/img/badges.png:
+Create a placeholder image showing all the GitHub achievement badges in a grid.
+
+scripts/generate-pdfs.sh:
+Update to also generate PDFs for the new all-achievements.md, badge-display-settings.md, and secret-profile-readme.md files.
+

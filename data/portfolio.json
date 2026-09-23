@@ -1,0 +1,11 @@
+{
+  "name": "GitHub Newbie Guide",
+  "organization": "FED-OS",
+  "description": "A practical, welcoming path from GitHub newbie to confident open-source contributor.",
+  "contact": "contact@fedpromptly.com",
+  "links": {
+    "website": "https://fedpromptly.com",
+    "github": "https://github.com/FED-OS",
+    "discord": "https://discord.gg/"
+  }
+}

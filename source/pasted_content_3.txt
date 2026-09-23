@@ -1,0 +1,257 @@
+
+Github Achievements
+Star on GitHub
+1,522
+Toggle theme
+Last update on September 23, 2026
+Unlock Github Profile Achievements and badges - The Ultimate Guide 🏆
+Welcome to our comprehensive guide on how to unlock badges and achievements, a much-desired aspect that showcases the prowess of your profile. If you've ever wondered, "how to get Github achievements?" you've come to the right place 😊
+
+Github Achievements
+Achievements are badges of honor displayed on your Github Profile that represent your activities, contributions, and milestones within the community. They serve as validations of your skills, dedication, and involvement in various projects and collaborations. These achievements are automatically unlocked once certain criteria have been fulfilled.
+
+Github Achievements look on gh profile
+Image 1 - Example of achievements on GH profile
+Github Achievements List 📋
+A list of GH Achievments
+Title	Badge	Earned by	Unlocker
+Quickdraw
+Quickdraw Badge Icon
+Closed an issue or a pull request within 5 min of opening	How to Unlock
+🔐
+Starstruck
+StarStruck Badge Icon
+Created a repository that has 16 stars	How to Unlock
+🔐
+Pair Extraordinaire
+Pair Extraordinaire Badge Icon
+Coauthored in a merged pull request	How to Unlock
+🔐
+Pull Shark
+Pull Shark Badge Icon
+2 pull requests merged	How to Unlock
+🔐
+Galaxy Brain
+Galaxy Brain Badge Icon
+2 accepted answers	How to Unlock
+🔐
+YOLO
+YOLO Badge Icon
+Merged a pull request without code review	How to Unlock
+🔐
+Public Sponsor
+Public Sponsor Badge Icon
+Sponsoring open source work via GitHub Sponsors	How to Unlock
+🔐
+Heart On Your Sleeve
+Heart On Your Sleeve Badge Icon
+?	Not earnable
+🔒
+Open Sourcerer
+Open Sourcerer Badge Icon
+?	Not earnable
+🔒
+Mars 2020 Contributor
+Mars 2020 Contributor Badge Icon
+Contributed to the Mars 2020 Helicopter Mission by adding code to a repository.	Not earnable
+🔒
+Arctic Code Vault Contributor
+rctic Code Vault Contributor Badge Icon
+Contributed to the 2020 GitHub Archive Program by adding code to a repository.	Not earnable
+🔒
+Github Highlights
+Highlights serve as a dynamic showcase of a user's activities, achievements, and popular repositories on their profile.
+
+highlights look on profile
+Image 2 - Example of higlights on GH profile
+Github Highlights List 📋
+A list of GH Highlights List
+Title	Earned by
+Pro Badge Icon
+Pro
+
+Signifies that you are using Github Pro. You need to pay for this.
+Developer Program Member Badge Icon
+Developer Program Member
+
+Displays that you are a registered member of the GitHub Developer Program.
+Security Bug Bounty Hunter Badge Icon
+Security Bug Bounty Hunter
+
+This indicates that you've assisted in identifying and resolving security vulnerabilities through the GitHub Security Bug Bounty program.
+GitHub Campus Expert Badge Icon
+GitHub Campus Expert
+
+This badge shows your participation in the Github Campus program, a training process that helps students build communities to learn technology on campus.
+Security advisory credit Badge Icon
+Security advisory credit
+
+Awarded when your security advisory submission is accepted to the GitHub Advisory Database
+Github Badges (shields)
+Github Badges are specially designed icons displayed on a profile or repository readme file to signify certain achievements or display information in a clear, concise, and visually appealing manner. They serve as an effective way to visualise and share the status, progress, and features of a project.
+
+Badges usually represent different types of information, from showing the current version of a software package to displaying the results of build processes or test coverage. They can also denote the inclusion of documentation, the percentage of issues resolved, and much more.
+
+badges look on profile
+Image 3 - Example of badges in repository
+How to add all achievements to my Github profile?
+How to get Quickdraw
+Quickdraw Badge Icon
+?
+🧠 You will learn how to create and close issues on GH website
+
+Step by step how to unlock quickdraw achievement:
+Click Create new issue (It is our reporitory, feel free to create test issues)
+Click "Submit new issue"
+Wait 10 seconds
+Click "Close issue"
+🎉 Congratulations - you just got an Quickdraw achievement! 😎
+
+How to unlock Pull shark
+Pull Shark Badge Icon
+?
+🧠 You will learn how to create public repository, PR (Pull Request) and Merge PR (Pull Request)
+
+Step by step how to get pull shark achievement:
+Create new PUBLIC repository with README.md - https://github.com/new
+create new repository
+Image 1 - Example of creation new public repository
+Edit README.md
+edit readme
+Image 2 - Edit readme
+Save README.md and create a new branch
+save readme and create a new pr
+Image 3 - how to save readme and create a new pull request
+Click Create pull request
+Click Merge pull request
+merge pr
+Image 4 - merge pull request
+Repeat 2-6 Step (you need to do it 2 times to get an achievement)
+🎉 Congratulations - you just got an Pull shark achievement! 😎
+
+How to get YOLO
+YOLO Badge Icon
+?
+🧠 You will learn how to merge a pull request without code review
+
+Step by step how to unlock YOLO achievement:
+Create a new PUBLIC repository with README.md - https://github.com/new
+Edit README.md and make a small change (add a line, fix a typo, etc.)
+Save README.md and create a new branch (similar to Pull Shark steps)
+Click Create pull request
+Important: Instead of waiting for a code review, click Merge pull request directly without any review approvals
+The YOLO achievement is unlocked when you merge a pull request without any code review
+🎉 Congratulations - you just got an YOLO achievement! 😎
+
+How to get Starstruck
+StarStruck Badge Icon
+?
+🧠 You will learn how to get stars to your repository
+
+Step by step how to unlock starstruck achievement:
+You need to have useful repository (project, notes, awesome lists etc.), share it everywhere, where you think it can help people.
+🤝 Show your support - give a ⭐️ to this project if you liked the content - https://github.com/Puliczek/github-achievements-academy
+how to star a repository
+Image 1 - How to star a repository
+When you reach 16 stars in your project you will get Starstruck
+🎉 Congratulations - you just got an Starstruck achievement! 😎
+
+How to get Public Sponsor
+Public Sponsor Badge Icon
+?
+🧠 You will learn how to sponsor other users
+
+Step by step how to unlock Public Sponsor achievement:
+To get this badge you need to insert creadit card on GH website and donate some money to other user.
+Start here https://github.com/sponsors
+gh sponsors
+Image 1 - gh sponsor website
+Find a public project, that helped you, and sponsor the creator.
+🎉 Congratulations - you just got an Public Sponsor achievement! 😎
+
+How to get Galaxy Brain
+Galaxy Brain Badge Icon
+?
+🧠 You will learn how to use communities
+
+Step by step how to unlock Galaxy Brain achievement:
+Important: The Galaxy Brain Badge is no longer awarded in Community Discussions. However, users are still able to get the badge in other Discussions forums.
+Find a repository that has Discussions enabled. You can look for the "Discussions" tab in repositories you follow or explore open source projects on GitHub.
+Find an unanswered question and answer the question, remember to answer correctly! Also your answer must be selected as the accepted answer by owner of the question
+Reach 2 accepted answers in any category
+🎉 Congratulations - you just got an Galaxy Brain achievement! 😎
+
+Can Achievements Help My Profile?
+Definitely! 💪 achievements do a lot more than just embellishing your profile with fancy badges. They serve an important function in enhancing and illustrating your profile's credibility and engagement.
+
+Firstly, achievements act as proof of your involvement and active contribution to GH. Potential collaborators can glance through your achievements and gauge your level of participation in the platform. This creates an immediate sense of trust and displays your dedication to growth and improvement within the realm of coding.
+
+Secondly, these achievements also provide an insight into your areas of expertise and customs. For instance, an achievement for contributing to open-source projects shows your ability to collaborate effectively and contribute constructively. This signals to others that you are open to collaborations and that your work is of a certain standard, thus making your profile more valuable in the eyes of potential employers or partners.
+
+Finally, achieving and displaying various achievements can help in personal branding. Be it a potential employer, collaborator, or any other viewer of your GH profile, these achievements serve as badges of your skill-set and adaptability, making your profile stand out.
+
+So in a nutshell, GH achievments can significantly help your GH profile. They spotlight your expertise, commitment, and adaptability, giving you an edge. Therefore, knowing how to unlock achievements and correctly applying them can be a game-changer for those who wish to maximize their GH experience and opportunities.
+
+How to Change Your Emoji Skin Tone Preference on GH website?
+example achivements in different Skin Tone
+Image 1 - example achivements in different Skin Tone
+Customizing your digital space should reflect your personality and preferences. This holds true even for seemingly small details like the color of the emoji you use on website. You can personalize your emojis by setting your preferred skin tone.
+
+Step by step how to change skin tone:
+Navigate to the upper-right corner of any page and click on your profile photo.
+Click on Settings in the dropdown menu.
+In the left sidebar, click Appearance.
+Scroll down until you reach the Emoji skin tone preference.
+Once you select your preferred skin tone, it will be applied globally to all of your emojis on Website 🥳. This means regardless of where you use an emoji that supports different skin tones, it will always use the tone you have set as a default.☝️
+The ability to change an emoji's skin tone allows for more inclusivity and personalization in the digital coding world.
+
+🤝 Show your support
+Wow, thats the end, thanks for reading :)
+
+🤝 Show your support - give a ⭐️ to this project if you liked the content: https://github.com/Puliczek/github-achievements-academy
+
+how to star a repository
+Image 1 - How to star a repository
+TABLE OF CONTENTS
+
+Introduction
+Github Achievements
+Github Achievements List
+Github Highlights
+Github Highlights List
+Github Badges (shields)
+How to add all achievements to my Github profile?
+How to get Quickdraw?
+How to get Pull Shark?
+How to get YOLO?
+How to get Starstruck?
+How to get Public Sponsor?
+How to get Galaxy Brain?
+Can Achievements Help My Profile?
+How to Change Your Emoji Skin Tone Preference on GH website?
+🤝 Show your support
+🏆
+Github Achievements
+Unlock GitHub Achievements
+Learn how to earn all GitHub profile achievements and badges.
+
+Explore Achievements
+About
+Introduction
+Get QuickDraw
+Get Pull Shark
+Get Galaxy Brain
+Resources
+Achievements List
+Profile Highlights
+Badges
+Support Us
+Recommendations
+JsonGPT.com
+ZdjecieAI.pl
+Socials
+GitHub
+Twitter
+Github
+Twitter
+Copyright © 2026 githubachievements.com. All Rights Reserved.

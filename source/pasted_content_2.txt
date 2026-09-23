@@ -1,0 +1,114 @@
+support me
+
+# GitHub Sponsors / funding configuration
+github: [FED-OS]
+
+ko_fi: fedpromptly
+
+patreon: fedpromptly
+
+# Custom links must be valid URLs wrapped in quotes and maxed out at 4 total links
+custom:
+  - "https://fedpromptly.com"
+  - "https://discord.gg"
+  - "https://fedpromptly.com"
+  - "https://github.com"
+
+
+Creating a social preview image (1280×640px) for the GitHub repo
+
+<a href='https://ko-fi.com/YOUR_USERNAME' target='_blank'>
+    <img height='36' style='border:0px;height:36px;' src='https://ko-fi.com/img/githubbutton_sm.svg' border='0' alt='Buy Me a Coffee at ko-fi.com' />
+</a>
+
+Creating a social preview image (1280×640px) for the GitHub repo
+
+Favion for my github page
+
+create a promotional gituhb page build using this 
+
+my-portfolio/
+├── .github/
+│   └── workflows/
+│       └── deploy.yml          # GitHub Actions CI/CD configuration
+├── assets/
+│   ├── css/
+│   │   └── main.css            # Stylesheets
+│   ├── js/
+│   │   └── app.js              # Custom scripts
+│   └── images/                 # Optimized graphic assets (icons, photos)
+├── components/                 # Reusable HTML snippets (for static sites)
+│   ├── header.html
+│   └── footer.html
+├── data/                       # Structured configurations (optional)
+│   └── portfolio.json          # Projects, experience, and contact meta-data
+├── .gitignore                  # Keeps node_modules/ and builds out of main
+├── 404.html                    # Custom 404 error page (GitHub Pages native support)
+├── CNAME                       # Custom domain configurations (if applicable)
+├── index.html                  # Root landing page (REQUIRED entry point)
+└── README.md                   # Project documentation and guide
+
+
+subscribe button in promotional html file build <script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Support me on Ko-fi', '#72a4f2', 'W3T61ZU5FS');kofiwidget2.draw();</script> 
+
+add these emails in every footer of every html 
+
+careers@fedpromptly.com
+
+support@fedpromptly.com
+
+business@fedpromptly.com
+
+contact@fedpromptly.com
+
+Add this to every html <a href="https://www.buymeacoffee.com/fedpromptly"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a book&emoji=📖&slug=fedpromptly&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff" /></a>
+
+.github/DISCUSSION_WELCOME_README.md
+.github/PULL_REQUEST_TEMPLATE.md
+.github/ISSUE_TEMPLATE/bug_report.md
+.github/ISSUE_TEMPLATE/feature_request.md
+.github/ISSUE_TEMPLATE/custom.md
+
+CLAUDE.md
+AGENTS.md
+AUTHORS.md
+MAINTAINERS.md
+
+ADR.md
+ROADMAP.md
+DEPLOYMENT.md
+BUILD.md
+INSTALL.md
+
+SUMMARY.md
+
+todo.md
+
+PRICING.md
+COPYING.md
+CITATIONS.md
+GOVERNANCE.md
+PULL_REQUEST_TEMPLATE.md
+bug_report.md
+feature_request.md
+SUPPORT.md
+CODE_OF_CONDUCT.md
+README.md
+CONTRIBUTING.md
+usage.md
+CHANGELOG.md
+FAQ.md
+NOTICE.md
+
+social-image.png
+prompts/
+wiki
+discussion
+SECURITY.md
+LICENSE
+.gitignore
+styles.css
+
+------------
+
+* .github/workflows/build.yml
