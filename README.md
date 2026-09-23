@@ -1,4 +1,6 @@
-# GitHub Newbie Guide
+# GitHub Newbie Guide by fedpromptly.com    
+
+<img width="2560" height="1440" alt="github-newbie-10" src="https://github.com/user-attachments/assets/b892bead-1d1b-4220-a22a-a8f66300ae10" />
 
 A practical, welcoming path from creating a GitHub account to making a confident first open-source contribution.
 
