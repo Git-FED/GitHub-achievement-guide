@@ -1,0 +1,20 @@
+name: Validate and build
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate shell scripts
+        run: bash -n scripts/*.sh
+      - name: Validate required entry points
+        run: test -s index.html && test -s README.md && test -s REVIEW_REPORT.md
+      - name: Build static site
+        run: ./scripts/build-site.sh
