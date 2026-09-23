@@ -1,0 +1,8 @@
+.DS_Store
+*.log
+node_modules/
+site-dist/
+.tmp/
+09-downloads/*.pdf
+assets/img/*.png
+assets/img/*.ico
